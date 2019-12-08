@@ -55,8 +55,77 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .quote {
   color: #999;
+}
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  article p {
+    margin-bottom: 1.4rem;
+  }
+
+  article ol {
+    margin-bottom: 1.4rem;
+  }
+
+  article header {
+    margin-bottom: 1.4rem;
+    padding-top: 1.4rem;
+  }
+
+  article header p {
+    margin-bottom: 1.4rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  article p {
+    margin-bottom: 1.5rem;
+  }
+
+  article ol {
+    margin-bottom: 1.5rem;
+  }
+
+  article header {
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  article header p {
+    margin-bottom: 1.5rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
